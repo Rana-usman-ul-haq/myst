@@ -164,7 +164,7 @@ contract MYST is Context, IERC20, Ownable {
     uint256 public _mystSellTax = 5;
     uint256 public _mystTransferTax = 5;
 
-    address payable public _mystTaxWallet = payable(0xf0bc09278694A8aB63569376D817522157529229);
+    address payable public _mystTaxWallet = payable(0xBf5e6D128e92bE2Cb3a2a7f5Ee527d6f5b62F779);
 
     IUniswapV2Router02 private uniswapV2Router;
     address private uniswapV2Pair;
